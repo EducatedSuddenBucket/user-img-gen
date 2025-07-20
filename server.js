@@ -54,7 +54,7 @@ app.get('/generate', async (req, res) => {
   }
 
   // Draw username
-  ctx.font = 'bold 80px Sans-serif';
+  ctx.font = 'bold 80px NotoSans';
   ctx.fillStyle = '#ffffff';
   ctx.fillText(username, 500, height / 2 + 30);
 
