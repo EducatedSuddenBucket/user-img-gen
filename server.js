@@ -3,7 +3,6 @@ const { createCanvas, loadImage, registerFont } = require('canvas');
 const path = require('path');
 const fs = require('fs');
 const axios = require('axios');
-const path = require('path');
 
 registerFont(path.join(__dirname, 'font.ttf'), { family: 'NotoSans' });
 const app = express();
